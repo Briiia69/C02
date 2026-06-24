@@ -6,6 +6,13 @@
 /*   By: alnoukan <alnoukan@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/24 12:50:01 by alnoukan          #+#    #+#             */
-/*   Updated: 2026/06/24 12:50:02 by alnoukan         ###   ########.fr       */
+/*   Updated: 2026/06/24 13:09:55 by alnoukan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
+
+void *ft_print_memory(void *addr, unsigned int size)
+{
+	
+}
