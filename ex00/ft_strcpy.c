@@ -1,11 +1,24 @@
-char *ft_strcpy(char *dest, char *src)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: alnoukan <alnoukan@student.42lausanne.c    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/24 12:47:01 by alnoukan          #+#    #+#             */
+/*   Updated: 2026/06/24 12:47:02 by alnoukan         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+char	*ft_strcpy(char *dest, char *src)
 {
-  int i;
-  
-  i = 0;
-  while (src[i]) {
-    dest[i] = src[i];
-    i++;
-  }
-  return (dest);
+	int	i;
+
+	i = 0;
+	while (src[i])
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	return (dest);
 }

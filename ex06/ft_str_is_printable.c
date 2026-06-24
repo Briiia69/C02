@@ -1,11 +1,25 @@
-int ft_str_is_printable(char *str) {
-  int i;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_str_is_printable.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: alnoukan <alnoukan@student.42lausanne.c    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/24 12:47:27 by alnoukan          #+#    #+#             */
+/*   Updated: 2026/06/24 12:47:28 by alnoukan         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-  i = 0;
-  while (str[i]) {
-    if (str[i] < 33 || str[i] == 127)
-      return (0);
-    i++;
-  }
-  return (1);
+int	ft_str_is_printable(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] < 33 || str[i] == 127)
+			return (0);
+		i++;
+	}
+	return (1);
 }

@@ -1,11 +1,25 @@
-char *ft_strupcase(char *str) {
-  int i;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strupcase.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: alnoukan <alnoukan@student.42lausanne.c    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/24 12:47:31 by alnoukan          #+#    #+#             */
+/*   Updated: 2026/06/24 12:47:32 by alnoukan         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-  i = 0;
-  while (str[i]) {
-    if (str[i] >= 97 && str[i] <= 122)
-      str[i] = str[i] - 32;
-    i++;
-  }
-  return (str);
+char	*ft_strupcase(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] >= 97 && str[i] <= 122)
+			str[i] = str[i] - 32;
+		i++;
+	}
+	return (str);
 }

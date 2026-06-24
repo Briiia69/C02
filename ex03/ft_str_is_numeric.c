@@ -1,11 +1,25 @@
-int ft_str_is_numeric(char *str) {
-  int i;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: alnoukan <alnoukan@student.42lausanne.c    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/06/24 12:47:15 by alnoukan          #+#    #+#             */
+/*   Updated: 2026/06/24 12:47:16 by alnoukan         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-  i = 0;
-  while (str[i]) {
-    if (str[i] < 48 || str[i] > 57)
-      return (0);
-    i++;
-  }
-  return (1);
+int	ft_str_is_numeric(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] < 48 || str[i] > 57)
+			return (0);
+		i++;
+	}
+	return (1);
 }
