@@ -6,13 +6,14 @@
 /*   By: alnoukan <alnoukan@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/24 12:48:37 by alnoukan          #+#    #+#             */
-/*   Updated: 2026/06/24 12:49:15 by alnoukan         ###   ########.fr       */
+/*   Updated: 2026/06/25 10:29:24 by alnoukan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strcapitalize(char *str)
 {
-	int i;
+	int	i;
+
 	i = 0;
 	while (str[i])
 	{
